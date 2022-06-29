@@ -9,7 +9,7 @@ type NavigationLink = TLink & {
 const NAVIGATION_LINKS: NavigationLink[] = [
   {
     href: '/about/',
-    text: 'About me',
+    text: 'About Me',
   },
   {
     href: '/output/',
