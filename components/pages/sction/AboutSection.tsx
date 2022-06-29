@@ -18,7 +18,6 @@ const AboutSection: FC = () => {
       src: '/images/profile.png',
       alt: '',
     },
-    isReverse: true,
   };
 
   return <SectionWrapper {...SectionWrapperProps} />;
