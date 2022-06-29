@@ -36,7 +36,7 @@ const SectionWrapper: FC<Props> = ({
             <h1 className="border-b border-solid border-white pb-2 text-6xl font-black">
               {title}
             </h1>
-            <p>{summaryElement}</p>
+            <p className="text-base">{summaryElement}</p>
           </div>
           <NextLink {...link}>
             <a>{title}</a>
