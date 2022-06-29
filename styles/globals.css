@@ -6,3 +6,7 @@ html,
 body {
   @apply bg-black text-white;
 }
+
+#__next {
+  @apply flex h-full w-full flex-col;
+}
