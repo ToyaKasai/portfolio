@@ -23,7 +23,7 @@ const NAVIGATION_LINKS: NavigationLink[] = [
 
 const Header: FC = () => {
   return (
-    <header className="fixed top-0 flex h-16 w-full items-center justify-end pr-8">
+    <header className="fixed top-0 z-header flex h-16 w-full items-center justify-end pr-8">
       <nav className="flex gap-x-8">
         {NAVIGATION_LINKS.map(({ href, text }) => (
           <NextLink key={href as string} href={href}>

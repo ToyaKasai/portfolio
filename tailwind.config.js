@@ -5,6 +5,9 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    zIndex: {
+      header: 100,
+    },
     extend: {
       height: {
         section: '640px',
